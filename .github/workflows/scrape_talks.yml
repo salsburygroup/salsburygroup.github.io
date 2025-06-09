@@ -31,10 +31,10 @@ jobs:
       run: |
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
-- name: Pull latest commits
-  run: |
-    git fetch origin master
-    git rebase origin/master      # fast-forward onto the newest tip
+    - name: Pull latest commits
+      run: |
+        git fetch origin master
+        git rebase origin/master      # fast-forward onto the newest tip
     
     - name: Commit changes
       run: |
