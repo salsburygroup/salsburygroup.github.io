@@ -5,7 +5,11 @@ on:
     paths:
       - 'talks/**'
       - 'talkmap.ipynb'
-
+permissions:          # put this near the top if it isn’t there yet
+  contents: write
+  pages: write
+  id-token: write      # required by actions/deploy-pages
+  
 jobs:
   build:
     runs-on: ubuntu-latest
