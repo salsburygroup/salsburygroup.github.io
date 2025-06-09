@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  pronouns         :  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Winston-Salem, NC"
   employer         : "Wake Forest University"
