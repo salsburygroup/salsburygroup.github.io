@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Salsbury Group"
 title_separator          : "-"
 name                     : &name "Freddie Salsbury, PhD"
 description              : &description "personal description"
