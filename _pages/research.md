@@ -33,14 +33,4 @@ Our research asks how molecular-scale structure and motion give rise to biologic
   </article>
 </div>
 
-## How we work
-
-<div class="process-row">
-  <div><span>01</span><strong>Frame</strong><p>Start with a precise biological question and an explicit physical model.</p></div>
-  <div><span>02</span><strong>Simulate</strong><p>Choose methods and sampling strategies suited to the time and length scales.</p></div>
-  <div><span>03</span><strong>Validate</strong><p>Test convergence, sensitivity, and consistency with available evidence.</p></div>
-  <div><span>04</span><strong>Interpret</strong><p>Translate molecular behavior into mechanisms and testable hypotheses.</p></div>
-</div>
-
 <p class="section-link"><a href="/publications/">See representative peer-reviewed work <span aria-hidden="true">→</span></a></p>
-

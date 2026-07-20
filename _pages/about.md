@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Salsbury Computational Biophysics Group"
+title: "Computational Molecular Biophysics Group"
 excerpt: "Physics-based simulation and data-driven analysis of biomolecular structure, dynamics, and function at Wake Forest University."
 author_profile: true
 redirect_from:

@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 permalink: /contact/
-excerpt: "Contact information for the Salsbury Computational Biophysics Group at Wake Forest University."
+excerpt: "Contact information for the Computational Molecular Biophysics Group at Wake Forest University."
 author_profile: true
 ---
 
@@ -28,4 +28,3 @@ author_profile: true
 ## Prospective students and collaborators
 
 Briefly describe the question or research area that interests you. Prospective students should also mention relevant coursework and experience in physics, chemistry, biology, mathematics, programming, or research. Current admissions and degree requirements are maintained by the [Wake Forest Department of Physics](https://physics.wfu.edu/graduate-programs/).
-

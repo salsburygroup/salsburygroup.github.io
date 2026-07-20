@@ -1,4 +1,4 @@
-# Salsbury Computational Biophysics Group
+# Computational Molecular Biophysics Group
 
 Public website for the Salsbury Group in the Department of Physics at Wake Forest University.
 
