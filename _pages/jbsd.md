@@ -3,6 +3,7 @@ title: "Journal of Biomolecular Structure and Dynamics"
 permalink: /jbsd/
 excerpt: "Editorial leadership and public information about the Journal of Biomolecular Structure and Dynamics."
 author_profile: true
+compact_title: true
 ---
 
 <div class="editorial-hero">
