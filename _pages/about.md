@@ -70,10 +70,21 @@ We work at the boundary of molecular physics, biophysics, and data science, ofte
     <p>Find the official Physics graduate-program links and prepare for an advising conversation.</p>
   </article>
   <article class="feature-card">
-    <p class="eyebrow">Build</p>
-    <h3><a href="/software/">Software & reproducibility</a></h3>
-    <p>Explore public group code and the principles that guide our computational work.</p>
+    <p class="eyebrow">Editorial leadership</p>
+    <h3><a href="/jbsd/">Journal of Biomolecular Structure and Dynamics</a></h3>
+    <p>Learn about JBSD's scope and Freddie Salsbury's service as Editor-in-Chief.</p>
   </article>
+</div>
+
+<div class="social-band">
+  <div>
+    <p class="eyebrow">Follow our work</p>
+    <h2>Research, teaching, and journal updates</h2>
+  </div>
+  <div class="button-row">
+    <a class="btn btn--quiet" href="https://www.linkedin.com/in/fred-salsbury-b4114a3/">Freddie Salsbury on LinkedIn <span aria-hidden="true">↗</span></a>
+    <a class="btn btn--quiet" href="https://www.linkedin.com/company/jbsd-journal/">JBSD on LinkedIn <span aria-hidden="true">↗</span></a>
+  </div>
 </div>
 
 ## Recent and representative work

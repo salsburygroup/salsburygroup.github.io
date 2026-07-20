@@ -214,6 +214,26 @@ h1,
   border-radius: 50%;
 }
 
+.editorial-hero {
+  margin: 0 0 3rem;
+  padding: clamp(1.7rem, 4vw, 3rem);
+  background:
+    linear-gradient(115deg, rgba(31, 102, 112, 0.09), transparent 58%),
+    var(--salsbury-surface);
+  border: 1px solid var(--global-border-color);
+  border-left: 5px solid var(--salsbury-gold);
+  border-radius: 0 20px 20px 0;
+}
+
+.editorial-lede {
+  max-width: 820px;
+  margin-bottom: 1.5rem !important;
+  color: var(--salsbury-ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.2rem, 2.2vw, 1.75rem) !important;
+  line-height: 1.5;
+}
+
 .hero-lede {
   max-width: 760px;
   margin-bottom: 1.6rem !important;
@@ -227,6 +247,12 @@ h1,
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
+}
+
+.button-stack {
+  display: grid;
+  gap: 0.85rem;
+  justify-items: start;
 }
 
 .page__content .btn {
@@ -329,12 +355,39 @@ html[data-theme="dark"] .callout-band .text-link {
   padding: 1.7rem 2rem;
 }
 
+.social-band {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 2.75rem 0 3.25rem;
+  padding: 1.5rem clamp(1.35rem, 3vw, 2rem);
+  background: var(--salsbury-surface);
+  border: 1px solid var(--global-border-color);
+  border-radius: 16px;
+}
+
+.social-band h2 {
+  margin: 0;
+  padding: 0;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+}
+
+.social-band .eyebrow {
+  margin-top: 0;
+}
+
 .text-link,
 .page__content .text-link {
   color: #fff;
   font-weight: 750;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.text-link--dark,
+.page__content .text-link--dark {
+  color: var(--salsbury-ink);
 }
 
 .section-link {
@@ -591,6 +644,10 @@ html[data-theme="dark"] .callout-band .text-link {
   justify-self: end;
 }
 
+.link-card .button-stack .btn {
+  justify-self: start;
+}
+
 .contact-grid {
   align-items: start;
 }
@@ -617,6 +674,10 @@ html[data-theme="dark"] .callout-band .text-link {
 }
 
 @media (max-width: 920px) {
+  .social-band {
+    grid-template-columns: 1fr;
+  }
+
   .feature-grid--three,
   .teaching-pathway,
   .course-grid--three {

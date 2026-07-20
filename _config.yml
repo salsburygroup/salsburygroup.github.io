@@ -26,10 +26,10 @@ author:
   avatar           : "fred-salsbury.jpg"
   name             : "Freddie Salsbury"
   pronouns         :  
-  bio              : "Professor of Physics and Physics Graduate Program Director. Computational biophysics, molecular simulation, and drug discovery."
+  bio              : "Professor of Physics, Physics Graduate Program Director, and Editor-in-Chief of the Journal of Biomolecular Structure and Dynamics."
   location         : "Winston-Salem, NC"
   employer         : "Wake Forest University"
-  uri              : "https://physics.wfu.edu/people/"
+  uri              :
   email            : "salsbufr@wfu.edu" 
 
   # Academic websites
@@ -61,7 +61,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "fred-salsbury-b4114a3"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -139,6 +139,8 @@ social:
   links:
     - "https://github.com/salsburygroup"
     - "https://physics.wfu.edu/people/"
+    - "https://www.linkedin.com/in/fred-salsbury-b4114a3/"
+    - "https://www.linkedin.com/company/jbsd-journal/"
 
 
 # Analytics
