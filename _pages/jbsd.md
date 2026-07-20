@@ -15,6 +15,20 @@ compact_title: true
   </div>
 </div>
 
+<section class="journal-flyer-section" aria-labelledby="jbsd-flyer-title">
+  <p class="eyebrow">Journal overview and call for papers</p>
+  <h2 id="jbsd-flyer-title">JBSD at a glance</h2>
+  <p>The journal flyer summarizes JBSD's updated aims and scope and highlights the special collection on Generative AI, AI, and Machine Learning in biomolecular structure and dynamics.</p>
+  <figure class="journal-flyer">
+    <a href="{{ '/images/jbsd-flyer.pdf' | relative_url }}" aria-label="Open the full JBSD journal and AI/ML special collection flyer as a PDF">
+      <img src="{{ '/images/jbsd-flyer-preview.jpg' | relative_url }}" width="1530" height="1980" loading="lazy" alt="Blue and white JBSD flyer summarizing the journal's updated aims and scope and its Generative AI, AI, and Machine Learning special collection.">
+    </a>
+    <figcaption>
+      <a class="text-link text-link--dark" href="{{ '/images/jbsd-flyer.pdf' | relative_url }}">Open the full flyer (PDF) <span aria-hidden="true">↗</span></a>
+    </figcaption>
+  </figure>
+</section>
+
 ## Scope
 
 JBSD publishes experimental, computational, and theoretical studies that deepen understanding of biomolecular structure and dynamics and their relationships to function. Its scope spans biophysics, structural biology, biochemical mechanisms, molecular modeling, and data-driven approaches to biomolecular questions.
