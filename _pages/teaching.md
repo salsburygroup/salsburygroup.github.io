@@ -30,6 +30,8 @@ Recent and recurring teaching has included mechanics, introductory physics, inte
 
 Research mentoring is structured around increasing independence. Students begin by learning the physical system and computational workflow, then take ownership of questions, validation, interpretation, and communication. Projects can span molecular simulation, statistical analysis, scientific programming, and interdisciplinary collaboration.
 
+Research mentoring focuses on scientific development; degree planning and program milestones are collected separately on the [Advising page](/advising/).
+
 ## AI in the classroom
 
 Generative AI can be useful when it supports—not bypasses—learning. The approach is cautious and constructive: establish foundational understanding first, make expectations explicit, and evaluate AI-produced material with the same skepticism applied to any other scientific source.
@@ -38,10 +40,9 @@ Read the Wake Forest Center for the Advancement of Teaching profile, [“Fred Sa
 
 <div class="callout-band callout-band--small">
   <div>
-    <p class="eyebrow">Prospective students</p>
-    <h2>Interested in computational biophysics?</h2>
-    <p>Include your scientific interests, relevant coursework, and any programming or research experience when you get in touch.</p>
+    <p class="eyebrow">Current and prospective students</p>
+    <h2>Looking for the right next step?</h2>
+    <p>Use the advising guide for official program links, planning questions, and ways to prepare for a conversation.</p>
   </div>
-  <a class="text-link" href="/contact/">Contact the group <span aria-hidden="true">→</span></a>
+  <a class="text-link" href="/advising/">Open advising <span aria-hidden="true">→</span></a>
 </div>
-

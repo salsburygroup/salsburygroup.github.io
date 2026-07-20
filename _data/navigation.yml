@@ -14,8 +14,14 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Teaching & Mentoring"
-    url: /teaching/    
+  - title: "Shared Resource"
+    url: /shared-resource/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Advising"
+    url: /advising/
 
   - title: "Software"
     url: /software/

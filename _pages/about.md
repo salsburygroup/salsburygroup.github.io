@@ -14,6 +14,7 @@ redirect_from:
   <div class="button-row">
     <a class="btn btn--accent" href="/research/">Explore our research</a>
     <a class="btn btn--quiet" href="/publications/">Selected publications</a>
+    <a class="btn btn--quiet" href="/shared-resource/">Work with us</a>
   </div>
 </div>
 
@@ -50,25 +51,45 @@ We work at the boundary of molecular physics, biophysics, and data science, ofte
   <div>
     <p class="eyebrow">A collaborative group</p>
     <h2>Physics, computation, and biology in conversation</h2>
-    <p>Our projects bring together quantitative modeling and experimental context. Students learn to ask careful questions, build reproducible analyses, and communicate results across disciplinary boundaries.</p>
+    <p>Our projects bring together quantitative modeling and experimental context. We contribute computational expertise to interdisciplinary research and train students to build careful, reproducible analyses.</p>
   </div>
-  <a class="text-link" href="/teaching/">Teaching & mentoring <span aria-hidden="true">→</span></a>
+  <a class="text-link" href="/shared-resource/">Shared Resource <span aria-hidden="true">→</span></a>
+</div>
+
+## For students, researchers, and collaborators
+
+<div class="feature-grid feature-grid--three">
+  <article class="feature-card">
+    <p class="eyebrow">Collaborate</p>
+    <h3><a href="/shared-resource/">Structural biology & drug discovery</a></h3>
+    <p>See how computational modeling and simulation connect with the Cancer Center's Shared Resource.</p>
+  </article>
+  <article class="feature-card">
+    <p class="eyebrow">Plan</p>
+    <h3><a href="/advising/">Graduate advising</a></h3>
+    <p>Find the official Physics graduate-program links and prepare for an advising conversation.</p>
+  </article>
+  <article class="feature-card">
+    <p class="eyebrow">Build</p>
+    <h3><a href="/software/">Software & reproducibility</a></h3>
+    <p>Explore public group code and the principles that guide our computational work.</p>
+  </article>
 </div>
 
 ## Recent and representative work
 
 <div class="publication-list publication-list--compact">
   <article class="publication-item">
-    <p class="publication-meta">The Journal of Physical Chemistry B · 2025</p>
+    <p class="publication-meta">Journal of Biomolecular Structure and Dynamics</p>
+    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/40999894/">K294E Change in the Rotavirus Factory Forming Protein NSP2 Stabilizes a Rare C-Terminal Conformation</a></h3>
+  </article>
+  <article class="publication-item">
+    <p class="publication-meta">The Journal of Physical Chemistry B</p>
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/39945395/">Impact of Amidation on Aβ25–35 Aggregation</a></h3>
   </article>
   <article class="publication-item">
-    <p class="publication-meta">ACS Omega · 2024</p>
+    <p class="publication-meta">ACS Omega</p>
     <h3><a href="https://pubmed.ncbi.nlm.nih.gov/38826540/">Allosteric Modulation of Thrombin by Thrombomodulin: Insights from Logistic Regression and Statistical Analysis of Molecular Dynamics Simulations</a></h3>
-  </article>
-  <article class="publication-item">
-    <p class="publication-meta">Journal of Chemical Information and Modeling · 2023</p>
-    <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37285464/">Unraveling the Role of Hydrogen Bonds in Thrombin via Two Machine Learning Methods</a></h3>
   </article>
 </div>
 

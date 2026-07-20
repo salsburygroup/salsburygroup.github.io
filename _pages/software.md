@@ -35,3 +35,4 @@ Computational science depends on transparent, testable workflows. We aim to docu
 
 <p class="section-link"><a href="https://github.com/salsburygroup">Browse the Salsbury Group GitHub organization <span aria-hidden="true">↗</span></a></p>
 
+For collaborative modeling and simulation support through the Comprehensive Cancer Center, see the [Structural Biology & Drug Discovery Shared Resource](/shared-resource/).
