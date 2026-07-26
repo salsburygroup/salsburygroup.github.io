@@ -7,6 +7,11 @@ author_profile: true
 
 Our research asks how molecular-scale structure and motion give rise to biological function. The descriptions below reflect established, publicly documented areas of work rather than confidential or unpublished projects.
 
+<figure class="research-visual">
+  <img src="{{ '/images/research-molecular-motion.jpg' | relative_url }}" width="1672" height="941" alt="Original scientific illustration of overlapping protein conformations, molecular interaction pathways, and data-analysis traces representing computational molecular biophysics.">
+  <figcaption>Illustrative visualization of the group's general workflow: simulate molecular ensembles, identify persistent interactions and motions, and connect those patterns with physical mechanism. This original artwork does not represent unpublished data.</figcaption>
+</figure>
+
 <div class="research-stack">
   <article class="research-panel">
     <p class="eyebrow">Molecular simulation</p>

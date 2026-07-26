@@ -19,9 +19,15 @@ $(document).ready(function () {
     if (use_theme === "dark") {
       $("html").attr("data-theme", "dark");
       $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
+      $("#theme-toggle button")
+        .attr("aria-label", "Switch to light theme")
+        .attr("aria-pressed", "true");
     } else if (use_theme === "light") {
       $("html").removeAttr("data-theme");
       $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+      $("#theme-toggle button")
+        .attr("aria-label", "Switch to dark theme")
+        .attr("aria-pressed", "false");
     }
   };
 
@@ -44,7 +50,7 @@ $(document).ready(function () {
     setTheme(new_theme);
   };
 
-  $('#theme-toggle').on('click', toggleTheme);
+  $('#theme-toggle button').on('click', toggleTheme);
 
   // These should be the same as the settings in _variables.scss
   const scssLarge = 925; // pixels

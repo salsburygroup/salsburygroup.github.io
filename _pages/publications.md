@@ -7,7 +7,14 @@ author_profile: true
 
 This selected—not exhaustive—list is organized by scientific theme rather than chronology. For the complete dated record, see [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Freddie+R+Salsbury%5BAuthor%5D&sort=date) or [Scopus](https://www.sciencedirect.com/author/6603335311/freddie-r-salsbury).
 
-## Molecular dynamics, allostery & data-driven methods
+<nav class="section-jump" aria-label="Publication themes">
+  <a href="#dynamics-methods">Dynamics, allostery & methods</a>
+  <a href="#nucleic-acids">Nucleic acids & therapeutics</a>
+  <a href="#amyloid-chemistry">Amyloid & protein chemistry</a>
+  <a href="#indexed-list">Complete indexed record</a>
+</nav>
+
+## Molecular dynamics, allostery & data-driven methods {#dynamics-methods}
 
 <div class="publication-list">
   <article class="publication-item">
@@ -67,7 +74,7 @@ This selected—not exhaustive—list is organized by scientific theme rather th
   </article>
 </div>
 
-## Nucleic acids, DNA repair & molecular therapeutics
+## Nucleic acids, DNA repair & molecular therapeutics {#nucleic-acids}
 
 <div class="publication-list">
   <article class="publication-item">
@@ -113,7 +120,7 @@ This selected—not exhaustive—list is organized by scientific theme rather th
   </article>
 </div>
 
-## Amyloid, membrane assemblies & protein chemistry
+## Amyloid, membrane assemblies & protein chemistry {#amyloid-chemistry}
 
 <div class="publication-list">
   <article class="publication-item">
@@ -155,7 +162,7 @@ This selected—not exhaustive—list is organized by scientific theme rather th
 <div class="callout-band callout-band--small">
   <div>
     <p class="eyebrow">Complete record</p>
-    <h2>Explore the indexed publication list</h2>
+    <h2 id="indexed-list">Explore the indexed publication list</h2>
     <p>PubMed provides the full chronological record and current indexing details.</p>
   </div>
   <a class="text-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=Freddie+R+Salsbury%5BAuthor%5D&sort=date">Open PubMed <span aria-hidden="true">↗</span></a>

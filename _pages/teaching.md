@@ -18,9 +18,16 @@ author_profile: true
   <div><span>04</span><strong>Communicate</strong><p>Explain the method, evidence, limitations, and next question clearly.</p></div>
 </div>
 
-## Current and upcoming courses
+<nav class="section-jump" aria-label="Teaching sections">
+  <a href="#current-courses">Current and regularly taught courses</a>
+  <a href="#interdisciplinary-teaching">Interdisciplinary and special topics</a>
+  <a href="#mentoring">Mentoring</a>
+  <a href="#responsible-ai">AI in teaching</a>
+</nav>
 
-<p class="section-intro">The courses below reflect active and upcoming teaching. Assignments change by term; the <a href="https://bulletin.wfu.edu/courses-az/phy/">undergraduate</a> and <a href="https://bulletin.wfu.edu/graduate/courses-az/phy/">graduate Physics bulletins</a> remain the authoritative sources for course descriptions.</p>
+## Current and regularly taught courses {#current-courses}
+
+<p class="section-intro">The courses below reflect active, upcoming, and regularly taught work. Assignments change by term; the <a href="https://bulletin.wfu.edu/courses-az/phy/">undergraduate</a> and <a href="https://bulletin.wfu.edu/graduate/courses-az/phy/">graduate Physics bulletins</a> remain the authoritative sources for course descriptions.</p>
 
 <div class="course-grid">
   <article class="course-card">
@@ -52,7 +59,7 @@ author_profile: true
   </article>
 </div>
 
-## Interdisciplinary teaching
+## Interdisciplinary and special-topic teaching {#interdisciplinary-teaching}
 
 <div class="course-grid course-grid--three">
   <article class="course-card course-card--compact">
@@ -72,7 +79,7 @@ author_profile: true
   </article>
 </div>
 
-## Mentoring from coursework into research
+## Mentoring from coursework into research {#mentoring}
 
 <div class="feature-grid">
   <article class="feature-card">
@@ -85,7 +92,7 @@ author_profile: true
   </article>
 </div>
 
-## AI as a tool—and a subject of study
+## AI as a tool—and a subject of study {#responsible-ai}
 
 Generative AI is useful when it supports learning rather than bypassing it. Students compare generated answers with equations, data, and primary sources; identify failure modes; and remain responsible for the scientific claims they make.
 

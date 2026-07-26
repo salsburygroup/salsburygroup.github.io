@@ -44,31 +44,39 @@
 
 /* Salsbury Group visual system */
 :root {
+  --salsbury-crimson: #9b1c31;
+  --salsbury-crimson-dark: #741524;
+  --salsbury-crimson-light: #f0a6b4;
+  --salsbury-crimson-soft: #f7ecef;
   --salsbury-gold: #b88a2e;
   --salsbury-gold-dark: #8f681d;
   --salsbury-ink: #202727;
   --salsbury-muted: #61706f;
   --salsbury-surface: #f6f3ec;
   --salsbury-card: #ffffff;
-  --salsbury-accent-soft: #eee5d1;
-  --global-link-color: #1f6670;
-  --global-link-color-hover: #174c54;
-  --global-link-color-visited: #1f6670;
+  --salsbury-accent-soft: #f7ecef;
+  --global-link-color: #8f1d2c;
+  --global-link-color-hover: #65131f;
+  --global-link-color-visited: #7a2835;
   --global-masthead-link-color: #2a3332;
-  --global-masthead-link-color-hover: #8f681d;
+  --global-masthead-link-color-hover: #8f1d2c;
 }
 
 html[data-theme="dark"] {
+  --salsbury-crimson: #e57d91;
+  --salsbury-crimson-dark: #f0a6b4;
+  --salsbury-crimson-light: #f4b7c2;
+  --salsbury-crimson-soft: #4a3035;
   --salsbury-gold: #d4ae5b;
   --salsbury-gold-dark: #e0bf75;
   --salsbury-ink: #f4f0e8;
   --salsbury-muted: #c4cdcb;
   --salsbury-surface: #333b3a;
   --salsbury-card: #252c2b;
-  --salsbury-accent-soft: #443e2d;
-  --global-link-color: #78c6cd;
-  --global-link-color-hover: #a4dce0;
-  --global-link-color-visited: #78c6cd;
+  --salsbury-accent-soft: #4a3035;
+  --global-link-color: #f0a6b4;
+  --global-link-color-hover: #f7c9d1;
+  --global-link-color-visited: #e9a0ad;
 }
 
 body {
@@ -93,7 +101,7 @@ h1,
 }
 
 .masthead {
-  border-top: 4px solid var(--salsbury-gold);
+  border-top: 4px solid var(--salsbury-crimson);
   box-shadow: 0 6px 24px rgba(23, 34, 33, 0.06);
 }
 
@@ -114,14 +122,43 @@ h1,
   font-weight: 600;
 }
 
+.masthead__menu-item button {
+  appearance: none;
+  padding: 0;
+  color: var(--global-masthead-link-color);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+.masthead__menu-item button:hover,
+.masthead__menu-item button:focus-visible {
+  color: var(--global-masthead-link-color-hover);
+}
+
+#theme-toggle button {
+  position: static;
+  display: flex;
+  width: 25px;
+  height: auto;
+  margin-left: 1rem;
+  padding: 0.5rem 0;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--global-masthead-link-color);
+  z-index: auto;
+}
+
 #main {
   margin-top: 2.75em;
 }
 
 .page__title {
-  max-width: 820px;
-  font-size: clamp(2.15rem, 5vw, 3.65rem);
-  line-height: 1.06;
+  max-width: 900px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
 }
 
 .page__inner-wrap > header .page__title::after {
@@ -130,7 +167,7 @@ h1,
   width: 68px;
   height: 4px;
   margin-top: 0.65rem;
-  background: var(--salsbury-gold);
+  background: var(--salsbury-crimson);
   border-radius: 999px;
 }
 
@@ -191,7 +228,7 @@ h1,
 
 .eyebrow {
   margin-bottom: 0.65rem !important;
-  color: var(--salsbury-gold-dark);
+  color: var(--salsbury-crimson-dark);
   font-size: 0.75rem !important;
   font-weight: 800;
   letter-spacing: 0.13em;
@@ -204,7 +241,7 @@ h1,
   overflow: hidden;
   position: relative;
   background:
-    radial-gradient(circle at 95% 15%, rgba(184, 138, 46, 0.22), transparent 31%),
+    radial-gradient(circle at 95% 15%, rgba(155, 28, 49, 0.16), transparent 31%),
     linear-gradient(135deg, var(--salsbury-surface), var(--salsbury-card));
   border: 1px solid var(--global-border-color);
   border-radius: 22px;
@@ -217,7 +254,7 @@ h1,
   position: absolute;
   right: -55px;
   bottom: -65px;
-  border: 18px solid rgba(31, 102, 112, 0.11);
+  border: 18px solid rgba(155, 28, 49, 0.11);
   border-radius: 50%;
 }
 
@@ -225,10 +262,10 @@ h1,
   margin: 0 0 3rem;
   padding: clamp(1.7rem, 4vw, 3rem);
   background:
-    linear-gradient(115deg, rgba(31, 102, 112, 0.09), transparent 58%),
+    linear-gradient(115deg, rgba(155, 28, 49, 0.1), transparent 58%),
     var(--salsbury-surface);
   border: 1px solid var(--global-border-color);
-  border-left: 5px solid var(--salsbury-gold);
+  border-left: 5px solid var(--salsbury-crimson);
   border-radius: 0 20px 20px 0;
 }
 
@@ -308,12 +345,16 @@ h1,
 }
 
 .btn--accent {
-  background: var(--salsbury-ink);
-  color: var(--global-bg-color) !important;
+  background: var(--salsbury-crimson);
+  color: #fff !important;
 }
 
 .btn--accent:hover {
-  background: var(--salsbury-gold-dark);
+  background: var(--salsbury-crimson-dark);
+}
+
+html[data-theme="dark"] .btn--accent {
+  color: #1f2928 !important;
 }
 
 .btn--quiet {
@@ -354,7 +395,7 @@ h1,
 }
 
 .card-number {
-  color: var(--salsbury-gold-dark);
+  color: var(--salsbury-crimson-dark);
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.1em;
@@ -382,6 +423,10 @@ html[data-theme="dark"] .callout-band .text-link {
   color: #1f2928;
 }
 
+html[data-theme="dark"] .callout-band .eyebrow {
+  color: #741524;
+}
+
 .callout-band h2 {
   margin: 0 0 0.65rem;
   font-size: clamp(1.35rem, 2.6vw, 2rem);
@@ -393,7 +438,7 @@ html[data-theme="dark"] .callout-band .text-link {
 }
 
 .callout-band .eyebrow {
-  color: var(--salsbury-gold);
+  color: var(--salsbury-crimson-light);
 }
 
 .callout-band--small {
@@ -475,7 +520,7 @@ html[data-theme="dark"] .callout-band .text-link {
 }
 
 .publication-meta {
-  color: var(--salsbury-gold-dark);
+  color: var(--salsbury-crimson-dark);
   font-size: 0.72rem !important;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -503,7 +548,7 @@ html[data-theme="dark"] .callout-band .text-link {
 
 .research-panel {
   padding: 1.65rem clamp(1.4rem, 3vw, 2.2rem);
-  border-left: 4px solid var(--salsbury-gold);
+  border-left: 4px solid var(--salsbury-crimson);
   background: var(--salsbury-surface);
   border-radius: 0 14px 14px 0;
 }
@@ -518,11 +563,67 @@ html[data-theme="dark"] .callout-band .text-link {
   margin-bottom: 0;
 }
 
+.research-visual {
+  margin: 2rem 0 2.5rem;
+}
+
+.research-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--global-border-color);
+  border-radius: 18px;
+  box-shadow: 0 18px 46px rgba(32, 39, 39, 0.1);
+}
+
+.research-visual figcaption {
+  max-width: 760px;
+  margin: 0.85rem auto 0;
+  color: var(--salsbury-muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.section-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.5rem 0 2.4rem;
+  padding: 1rem;
+  background: var(--salsbury-crimson-soft);
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+}
+
+.section-jump a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.4rem;
+  padding: 0.45rem 0.8rem;
+  color: var(--salsbury-ink);
+  background: var(--salsbury-card);
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.section-jump a:hover,
+.section-jump a:focus-visible {
+  color: var(--global-link-color);
+  border-color: var(--salsbury-crimson);
+}
+
 .teaching-intro {
   margin: 0 0 1.5rem;
   padding: clamp(1.5rem, 4vw, 2.5rem);
   background:
-    radial-gradient(circle at 94% 10%, rgba(184, 138, 46, 0.18), transparent 32%),
+    radial-gradient(circle at 94% 10%, rgba(155, 28, 49, 0.14), transparent 32%),
     var(--salsbury-surface);
   border: 1px solid var(--global-border-color);
   border-radius: 18px;
@@ -552,13 +653,13 @@ html[data-theme="dark"] .callout-band .text-link {
   padding: 1.1rem 1rem 1.2rem;
   background: var(--salsbury-card);
   border: 1px solid var(--global-border-color);
-  border-top: 3px solid var(--salsbury-gold);
+  border-top: 3px solid var(--salsbury-crimson);
   border-radius: 0 0 12px 12px;
 }
 
 .teaching-pathway span,
 .course-card__meta {
-  color: var(--salsbury-gold-dark);
+  color: var(--salsbury-crimson-dark);
   font-size: 0.7rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -609,7 +710,7 @@ html[data-theme="dark"] .callout-band .text-link {
   height: 4px;
   position: absolute;
   inset: 0 0 auto;
-  background: linear-gradient(90deg, var(--salsbury-gold), var(--global-link-color));
+  background: linear-gradient(90deg, var(--salsbury-crimson), var(--salsbury-gold));
 }
 
 .course-card__meta {
@@ -712,7 +813,7 @@ html[data-theme="dark"] .callout-band .text-link {
 }
 
 .page__footer {
-  border-top: 4px solid var(--salsbury-gold);
+  border-top: 4px solid var(--salsbury-crimson);
 }
 
 .page__footer footer {
