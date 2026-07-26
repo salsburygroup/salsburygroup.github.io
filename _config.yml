@@ -129,8 +129,9 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "social-card.jpg" # Social media default site image
+og_image_alt             : "Computational Molecular Biophysics Group at Wake Forest University"
+og_description           : "Computational and theoretical biophysics, molecular simulation, and data-driven discovery at Wake Forest University."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
