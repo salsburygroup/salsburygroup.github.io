@@ -179,7 +179,7 @@ h1,
 
 .page--compact-title .page__title {
   max-width: 900px;
-  font-size: clamp(1.85rem, 3.6vw, 2.7rem);
+  font-size: clamp(1.45rem, 1.8vw, 1.75rem);
   line-height: 1.12;
   letter-spacing: -0.02em;
 }
@@ -647,14 +647,30 @@ html[data-theme="dark"] .callout-band .eyebrow {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.8rem;
   margin: 1.5rem 0 3.25rem;
+  padding: 0;
+  list-style: none;
 }
 
-.teaching-pathway > div {
+.teaching-pathway > li {
   padding: 1.1rem 1rem 1.2rem;
   background: var(--salsbury-card);
   border: 1px solid var(--global-border-color);
   border-top: 3px solid var(--salsbury-crimson);
   border-radius: 0 0 12px 12px;
+}
+
+.update-list--home .publication-item > div > p {
+  color: var(--salsbury-muted);
+}
+
+.update-list .publication-item h2,
+.update-list .publication-item h3 {
+  margin-top: 0.3rem;
+}
+
+.opportunity-note {
+  color: var(--salsbury-muted);
+  font-size: 0.85rem;
 }
 
 .teaching-pathway span,

@@ -11,12 +11,12 @@ author_profile: true
   <p>Python, simulation, machine learning, and generative AI enter the classroom where they sharpen a question or expose an assumption. The standard remains the same: students must understand the physics, test the output, and communicate what the evidence supports.</p>
 </div>
 
-<div class="teaching-pathway" aria-label="Teaching approach">
-  <div><span>01</span><strong>Model</strong><p>Translate a physical or biological question into assumptions, variables, and equations.</p></div>
-  <div><span>02</span><strong>Compute</strong><p>Use Python, numerical methods, simulation, or AI to explore what the model predicts.</p></div>
-  <div><span>03</span><strong>Test</strong><p>Compare results with data, limiting cases, uncertainty, and established scientific knowledge.</p></div>
-  <div><span>04</span><strong>Communicate</strong><p>Explain the method, evidence, limitations, and next question clearly.</p></div>
-</div>
+<ol class="teaching-pathway" aria-label="Teaching approach">
+  <li><span>01</span><strong>Model</strong><p>Translate a physical or biological question into assumptions, variables, and equations.</p></li>
+  <li><span>02</span><strong>Compute</strong><p>Use Python, numerical methods, simulation, or AI to explore what the model predicts.</p></li>
+  <li><span>03</span><strong>Test</strong><p>Compare results with data, limiting cases, uncertainty, and established scientific knowledge.</p></li>
+  <li><span>04</span><strong>Communicate</strong><p>Explain the method, evidence, limitations, and next question clearly.</p></li>
+</ol>
 
 <nav class="section-jump" aria-label="Teaching sections">
   <a href="#current-courses">Current and regularly taught courses</a>

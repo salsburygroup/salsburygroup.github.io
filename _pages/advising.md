@@ -29,7 +29,7 @@ Freddie Salsbury serves as Graduate Program Director for Physics at Wake Forest 
 
 ## Pre-health advising
 
-Freddie Salsbury serves as a Pre-Health Advisor for first-year students and for first-generation students throughout their undergraduate years. Pre-health planning complements a student's regular academic and major advising: the goal is to connect professional interests with a thoughtful academic plan while keeping the student's broader education in view.
+Freddie Salsbury serves as Assistant Director of Health Professions, advising all first-year premedical students and first-generation premedical students throughout their undergraduate years. Pre-health planning complements a student's regular academic and major advising: the goal is to connect professional interests with a thoughtful academic plan while keeping the student's broader education in view. Current responsibilities and appointment information are maintained on the [Prehealth @ WFU advisors page](https://prehealth.wfu.edu/resources/advisors/).
 
 <div class="feature-grid">
   <article class="feature-card">

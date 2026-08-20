@@ -26,7 +26,7 @@ author:
   avatar           : "fred-salsbury.jpg"
   name             : "Freddie Salsbury"
   pronouns         :  
-  bio              : "Professor of Physics, Physics Graduate Program Director, and Editor-in-Chief of the Journal of Biomolecular Structure and Dynamics."
+  bio              : "Professor of Physics, Physics Graduate Program Director, Assistant Director of Health Professions, and JBSD Editor-in-Chief."
   location         : "Winston-Salem, NC"
   employer         : "Wake Forest University"
   uri              :
@@ -111,7 +111,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : true      # no blog feed is published
+  hide                   : false
   path                   : # blank (default) uses feed.xml
 
 
@@ -130,7 +130,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "social-card.jpg" # Social media default site image
-og_image_alt             : "Computational Molecular Biophysics Group at Wake Forest University"
+og_image_alt             : "Computational Molecular Biophysics Group at Wake Forest University with a compact thrombin model"
 og_description           : "Computational and theoretical biophysics, molecular simulation, and data-driven discovery at Wake Forest University."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles

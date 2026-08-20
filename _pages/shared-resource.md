@@ -6,7 +6,7 @@ author_profile: true
 compact_title: true
 ---
 
-The Salsbury Group contributes computational biophysics expertise to the [Structural Biology and Drug Discovery Shared Resource](https://school.wakehealth.edu/research/institutes-and-centers/comprehensive-cancer-center/shared-resources-and-cores/structural-biology-and-drug-discovery) of the Atrium Health Wake Forest Baptist Comprehensive Cancer Center. Freddie Salsbury serves as a Co-Director of the resource.
+The Salsbury Group contributes computational biophysics expertise and scientific leadership to the [Structural Biology and Drug Discovery Shared Resource](https://school.wakehealth.edu/research/institutes-and-centers/comprehensive-cancer-center/shared-resources-and-cores/structural-biology-and-drug-discovery) of the Atrium Health Wake Forest Baptist Comprehensive Cancer Center. The official resource page is the authoritative source for current leadership, capabilities, and access.
 
 ## From structural questions to testable models
 
@@ -16,7 +16,7 @@ The Shared Resource connects investigators with complementary expertise in struc
   <article class="feature-card">
     <p class="eyebrow">Model</p>
     <h3>Structure & molecular simulation</h3>
-    <p>Structure preparation, molecular and force-field models, molecular dynamics, and analysis of biomolecular motion and interaction.</p>
+    <p>Structure preparation, molecular models, force fields, molecular dynamics, and analysis of biomolecular motion and interaction.</p>
   </article>
   <article class="feature-card">
     <p class="eyebrow">Discover</p>

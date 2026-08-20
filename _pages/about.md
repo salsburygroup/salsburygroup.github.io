@@ -13,8 +13,8 @@ redirect_from:
   <p class="hero-lede">We use molecular simulation, statistical analysis, and machine learning to understand how biomolecules move—and how those motions shape recognition, regulation, and disease.</p>
   <div class="button-row">
     <a class="btn btn--accent" href="/research/">Explore our research</a>
-    <a class="btn btn--quiet" href="/publications/">Selected publications</a>
-    <a class="btn btn--quiet" href="/shared-resource/">Work with us</a>
+    <a class="btn btn--quiet" href="/people/#opportunities">Join the group</a>
+    <a class="btn btn--quiet" href="/shared-resource/">Collaborate</a>
   </div>
 </div>
 
@@ -58,7 +58,12 @@ We work at the boundary of molecular physics, biophysics, and data science, ofte
 
 ## For students, researchers, and collaborators
 
-<div class="feature-grid feature-grid--three">
+<div class="feature-grid">
+  <article class="feature-card">
+    <p class="eyebrow">Join</p>
+    <h3><a href="/people/">People & opportunities</a></h3>
+    <p>Learn about the group's leadership, training environment, and current public recruiting status.</p>
+  </article>
   <article class="feature-card">
     <p class="eyebrow">Collaborate</p>
     <h3><a href="/shared-resource/">Structural biology & drug discovery</a></h3>
@@ -66,8 +71,8 @@ We work at the boundary of molecular physics, biophysics, and data science, ofte
   </article>
   <article class="feature-card">
     <p class="eyebrow">Plan</p>
-    <h3><a href="/advising/">Graduate advising</a></h3>
-    <p>Find the official Physics graduate-program links and prepare for an advising conversation.</p>
+    <h3><a href="/advising/">Graduate & pre-health advising</a></h3>
+    <p>Find official Wake Forest resources and prepare for an advising conversation.</p>
   </article>
   <article class="feature-card">
     <p class="eyebrow">Editorial leadership</p>
@@ -79,13 +84,29 @@ We work at the boundary of molecular physics, biophysics, and data science, ofte
 <div class="social-band">
   <div>
     <p class="eyebrow">Follow our work</p>
-    <h2>Research, teaching, and journal updates</h2>
+    <h2>Research, people, teaching, and journal updates</h2>
   </div>
   <div class="button-row">
     <a class="btn btn--quiet" href="https://www.linkedin.com/in/fred-salsbury-b4114a3/">Freddie Salsbury on LinkedIn <span aria-hidden="true">↗</span></a>
     <a class="btn btn--quiet" href="https://www.linkedin.com/company/jbsd-journal/">JBSD on LinkedIn <span aria-hidden="true">↗</span></a>
   </div>
 </div>
+
+## Latest updates
+
+<div class="publication-list publication-list--compact update-list--home">
+{% for post in site.categories.updates limit:3 %}
+  <article class="publication-item">
+    <p class="publication-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
+    <div>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | strip_newlines }}</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+
+<p class="section-link"><a href="/updates/">View all updates <span aria-hidden="true">→</span></a></p>
 
 ## Recent and representative work
 

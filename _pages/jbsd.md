@@ -9,7 +9,7 @@ compact_title: true
 
 <div class="editorial-hero">
   <p class="eyebrow">Editorial leadership</p>
-  <p class="editorial-lede">Freddie Salsbury serves as an Editor-in-Chief of the <em>Journal of Biomolecular Structure and Dynamics</em> (JBSD), an international peer-reviewed journal connecting biomolecular structure, dynamics, and biological function.</p>
+  <p class="editorial-lede">Freddie Salsbury serves as the Editor-in-Chief of the <em>Journal of Biomolecular Structure and Dynamics</em> (JBSD), an international peer-reviewed journal connecting biomolecular structure, dynamics, and biological function.</p>
   <div class="button-row">
     <a class="btn btn--accent" href="https://www.tandfonline.com/journals/tbsd20">Visit the journal <span aria-hidden="true">↗</span></a>
     <a class="btn btn--quiet" href="https://www.linkedin.com/company/jbsd-journal/">Follow JBSD on LinkedIn <span aria-hidden="true">↗</span></a>

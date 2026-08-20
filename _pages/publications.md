@@ -5,7 +5,7 @@ excerpt: "Selected peer-reviewed work from the Salsbury Group in molecular simul
 author_profile: true
 ---
 
-This selected—not exhaustive—list is organized by scientific theme rather than chronology. For the complete dated record, see [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Freddie+R+Salsbury%5BAuthor%5D&sort=date) or [Scopus](https://www.sciencedirect.com/author/6603335311/freddie-r-salsbury).
+This selected—not exhaustive—list is organized by scientific theme rather than chronology. For the complete dated record, see [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Freddie+R+Salsbury%5BAuthor%5D&amp;sort=date) or [Scopus](https://www.sciencedirect.com/author/6603335311/freddie-r-salsbury).
 
 <nav class="section-jump" aria-label="Publication themes">
   <a href="#dynamics-methods">Dynamics, allostery & methods</a>
@@ -25,10 +25,24 @@ This selected—not exhaustive—list is organized by scientific theme rather th
   </article>
 
   <article class="publication-item">
+    <p class="publication-meta">Mini-Reviews in Medicinal Chemistry</p>
+    <h3>Thrombin – A Molecular Dynamics Perspective</h3>
+    <p>Wu, D.; Prem, A.; Xiao, J.; Salsbury, F. R.</p>
+    <p class="publication-links"><a href="https://pubmed.ncbi.nlm.nih.gov/37605420/">PubMed</a><a href="https://doi.org/10.2174/1389557523666230821102655">DOI</a></p>
+  </article>
+
+  <article class="publication-item">
     <p class="publication-meta">ACS Omega</p>
     <h3>Allosteric Modulation of Thrombin by Thrombomodulin: Insights from Logistic Regression and Statistical Analysis of Molecular Dynamics Simulations</h3>
     <p>Wu, D.; Salsbury, F. R., Jr.</p>
     <p class="publication-links"><a href="https://pubmed.ncbi.nlm.nih.gov/38826540/">PubMed</a><a href="https://doi.org/10.1021/acsomega.4c03375">DOI</a></p>
+  </article>
+
+  <article class="publication-item">
+    <p class="publication-meta">Journal of Molecular Modeling</p>
+    <h3>Simulations Suggest Double Sodium Binding Induces Unexpected Conformational Changes in Thrombin</h3>
+    <p>Wu, D.; Salsbury, F. R., Jr.</p>
+    <p class="publication-links"><a href="https://pubmed.ncbi.nlm.nih.gov/35419655/">PubMed</a><a href="https://doi.org/10.1007/s00894-022-05076-0">DOI</a></p>
   </article>
 
   <article class="publication-item">
@@ -165,5 +179,5 @@ This selected—not exhaustive—list is organized by scientific theme rather th
     <h2 id="indexed-list">Explore the indexed publication list</h2>
     <p>PubMed provides the full chronological record and current indexing details.</p>
   </div>
-  <a class="text-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=Freddie+R+Salsbury%5BAuthor%5D&sort=date">Open PubMed <span aria-hidden="true">↗</span></a>
+  <a class="text-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=Freddie+R+Salsbury%5BAuthor%5D&amp;sort=date">Open PubMed <span aria-hidden="true">↗</span></a>
 </div>

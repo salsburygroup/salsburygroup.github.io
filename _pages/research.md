@@ -1,7 +1,7 @@
 ---
 title: "Research"
 permalink: /research/
-excerpt: "Stable, published research areas in computational and theoretical biophysics."
+excerpt: "Molecular simulation, allostery, data-driven methods, and molecular discovery in computational biophysics."
 author_profile: true
 ---
 
