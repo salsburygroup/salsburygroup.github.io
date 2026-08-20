@@ -8,14 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-<div class="site-hero">
-  <p class="eyebrow">Wake Forest University · Department of Physics</p>
-  <p class="hero-lede">We use molecular simulation, statistical analysis, and machine learning to understand how biomolecules move—and how those motions shape recognition, regulation, and disease.</p>
-  <div class="button-row">
-    <a class="btn btn--accent" href="/research/">Explore our research</a>
-    <a class="btn btn--quiet" href="/people/#opportunities">Join the group</a>
-    <a class="btn btn--quiet" href="/shared-resource/">Collaborate</a>
+<div class="site-hero site-hero--with-visual">
+  <div class="site-hero__content">
+    <p class="eyebrow">Wake Forest University · Department of Physics</p>
+    <p class="hero-lede">We use molecular simulation, statistical analysis, and machine learning to understand how biomolecules move—and how those motions shape recognition, regulation, and disease.</p>
+    <div class="button-row">
+      <a class="btn btn--accent" href="/research/">Explore our research</a>
+      <a class="btn btn--quiet" href="/people/#opportunities">Join the group</a>
+      <a class="btn btn--quiet" href="/shared-resource/">Collaborate</a>
+    </div>
   </div>
+  <div class="site-hero__visual" aria-hidden="true"></div>
 </div>
 
 ## From molecular motion to biological mechanism
@@ -94,11 +97,14 @@ We work at the boundary of molecular physics, biophysics, and data science, ofte
 
 ## Latest updates
 
-<div class="publication-list publication-list--compact update-list--home">
+<div class="publication-list update-list update-list--home">
 {% for post in site.categories.updates limit:3 %}
-  <article class="publication-item">
-    <p class="publication-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
-    <div>
+  <article class="publication-item update-card update-card--compact">
+    <a class="update-card__image" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ '/images/' | append: post.header.teaser | relative_url }}" alt="" width="1200" height="675" loading="lazy">
+    </a>
+    <div class="update-card__body">
+      <p class="publication-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt | strip_html | strip_newlines }}</p>
     </div>

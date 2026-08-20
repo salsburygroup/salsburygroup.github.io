@@ -3,6 +3,7 @@ title: "Teaching & Mentoring"
 permalink: /teaching/
 excerpt: "Active teaching in physics, computational molecular biophysics, laboratory science, and interdisciplinary cancer biology."
 author_profile: true
+compact_title: true
 ---
 
 <div class="teaching-intro">

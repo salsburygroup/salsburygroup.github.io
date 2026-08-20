@@ -8,6 +8,8 @@ comments: false
 share: false
 related: false
 read_time: false
+header:
+  teaser: update-amyloid-amidation.webp
 ---
 
 Molecular dynamics simulations examine how C-terminal amidation changes the aggregation of Aβ25–35. The published analysis compares amidated and nonamidated systems and identifies differences in chain orientation and secondary-structure populations while retaining common interaction motifs.

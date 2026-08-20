@@ -8,6 +8,8 @@ comments: false
 share: false
 related: false
 read_time: false
+header:
+  teaser: update-nsp2-conformational-dynamics.webp
 ---
 
 A collaborative Wake Forest study reports that the K294E change in the rotavirus factory-forming protein NSP2 stabilizes a rare C-terminal conformation. The work combines X-ray crystallography with molecular dynamics simulations to connect a single amino-acid change with shifts in the protein's structural ensemble and viroplasm formation.
