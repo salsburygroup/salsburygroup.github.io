@@ -26,10 +26,10 @@ Thanks to Wake Forest's IS/HPC staff for hosting us.
 
 ![Students gather around an HPC staff member in the touchdown space.]({{ '/images/fys-hpc-2026-02.jpg' | relative_url }})
 
-![Freddie Salsbury points toward a server rack while another staff member looks on.]({{ '/images/fys-hpc-2026-03.jpg' | relative_url }})
+![A Wake Forest HPC staff member points toward a server rack.]({{ '/images/fys-hpc-2026-03.jpg' | relative_url }})
 
 ![Open server racks reveal cable connections and computing equipment.]({{ '/images/fys-hpc-2026-04.jpg' | relative_url }})
 
 ![Students gather in a data-center aisle around an HPC staff member.]({{ '/images/fys-hpc-2026-05.jpg' | relative_url }})
 
-![Freddie Salsbury speaks with students at the end of the tour.]({{ '/images/fys-hpc-2026-06.jpg' | relative_url }})
+![A Wake Forest HPC staff member speaks with students at the end of the tour.]({{ '/images/fys-hpc-2026-06.jpg' | relative_url }})
